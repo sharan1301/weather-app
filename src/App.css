@@ -1,0 +1,82 @@
+/* App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.weather-app {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.city-search input {
+  width: 90%;
+  padding: 10px;
+  margin:auto 3px 20px 3px;
+  
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.city-name h2 {
+  margin: 0;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-name span {
+  font-size: 0.5em;
+  margin-left: 10px;
+  color: #a0a0a0;
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #a0a0a0;
+}
+
+.icon-temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-temp img {
+  width: 80px;
+  height: 80px;
+}
+
+.icon-temp .degree {
+  font-size: 2em;
+  margin-left: 5px;
+  color: #ffcc00;
+}
+
+.des-wind {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.des-wind p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
