@@ -43,6 +43,7 @@ params:{
   return (
     <>
       <div className="App">
+        <h2>WEATHERIFY</h2>
         <div className="weather-app">
           <div className="city-search">
             <input type="text" className="city" placeholder="Enter the city" 

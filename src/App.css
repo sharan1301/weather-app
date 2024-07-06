@@ -8,6 +8,7 @@
   background-color: #282c34;
   color: white;
   font-family: 'Arial', sans-serif;
+  flex-direction:column;
 }
 
 .weather-app {
@@ -58,6 +59,11 @@
 .icon-temp img {
   width: 80px;
   height: 80px;
+}
+.App h2{
+  align-items:center;
+  color:yellow;
+  margin-top:30px;
 }
 
 .icon-temp .degree {
